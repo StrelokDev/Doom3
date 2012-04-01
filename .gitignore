@@ -2,5 +2,5 @@
 /bin
 /.DS_Store
 /desktop.ini
-/*.user
-/*.sdf
+*.user
+*.sdf
