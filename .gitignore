@@ -1,1 +1,6 @@
-build
+/build
+/bin
+/.DS_Store
+/desktop.ini
+/*.user
+/*.sdf
