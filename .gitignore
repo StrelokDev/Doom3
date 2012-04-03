@@ -1,6 +1,10 @@
 /build
 /bin
+/dist
 /.DS_Store
 /desktop.ini
 *.user
 *.sdf
+*.opensdf
+*.suo
+*.tmp
