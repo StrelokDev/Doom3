@@ -477,7 +477,7 @@ void			Sys_ShutdownNetworking( void );
 ==============================================================
 */
 
-typedef unsigned int (*xthread_t)( void * );
+typedef size_t (*xthread_t)( void * );
 
 typedef enum {
 	THREAD_NORMAL,
@@ -487,7 +487,7 @@ typedef enum {
 
 typedef struct {
 	const char *	name;
-	int				threadHandle;
+	size_t				threadHandle;
 	unsigned long	threadId;
 } xthreadInfo;
 
